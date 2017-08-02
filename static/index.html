@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Google App Engine</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+	<table>
+		<tr>
+			
+		</tr>
+
+		<tr>
+			<td>
+				<form id="formUpload" action="../uploadimage" method="post" enctype=multipart/form-data><br>
+				<p class='description'></p> Please upload your images here:<br><input type = "file" name="file_upload">
+				<input type="text" class="Comment" value="" placeholder="Comments" name="Comments"><br>
+				<label class="login-field-icon fui-user" for="login-name"></label><br>
+				<input type="submit" value="Upload" id="submit_file">
+				</form>
+			</td>
+			
+		</tr>
+
+		<tr>
+			<td>
+				<form id ='GetMypictures' action="../getmypictures" method = 'POST' >
+					List my images: <input type="text" class="noofimages" value="" placeholder="noofimages" name="no of images"><br>
+					<input type="submit" value="Show"><br><br>
+				</form>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<form id = 'RemoveMyPictures' action="../removemypictures" method = 'POST' >
+					Delete my images: <input type="submit" value="Delete"><br><br>
+				</form>
+			</td>
+		</tr>
+
+		
+
+		<div>
+			<h3>Welcome Drashti,</h3>
+			<h3>Name: Drashti Patel</h3>
+			<h3>Student ID:6894 </h3>
+			<h3>Batch: 4:00pm</h3>
+		</div>
+	</table>
+</body>
+</html>
